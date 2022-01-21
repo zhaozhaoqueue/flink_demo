@@ -25,10 +25,15 @@ Get a local local environment, parallelism must be set;
 #### Source
 - [X] From collection
 - [X] From file
-- [ ] From Kafka
-- [ ] From socket <br/>
-Mostly used for testing
-- [ ] From customized source
+- [X] From Kafka
+- zookeeper: zookeeper-server-start.sh
+- kafka server: kafka-server-start.sh -daemon config/server.properties
+- producer： kafka-console-producer.sh --broker-list localhost:9092 --topic flink-test
+- consumer: kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic flink-test
+- [X] From socket
+- socket: nc -lk 6666
+- Mostly used for testing
+- [X] From customized source
 #### Transformation
 - [ ] Basic operators (map, flatMap, filter ...)
 - [ ] Rolling aggregation operators (keyby, sum, min, max, minby, maxby, reduce)

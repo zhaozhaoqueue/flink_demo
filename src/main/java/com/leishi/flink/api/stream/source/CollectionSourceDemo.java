@@ -1,6 +1,6 @@
 package com.leishi.flink.api.stream.source;
 
-import com.leishi.flink.com.leishi.flink.functions.WordToLengthMapFunction;
+import com.leishi.flink.functions.WordToLengthMapFunction;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

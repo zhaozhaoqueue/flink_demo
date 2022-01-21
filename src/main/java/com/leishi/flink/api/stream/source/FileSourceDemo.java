@@ -1,7 +1,7 @@
 package com.leishi.flink.api.stream.source;
 
-import com.leishi.flink.com.leishi.flink.functions.LineSplitFlatMapFunction;
-import com.leishi.flink.com.leishi.flink.selectors.key.WordCountKeySelector;
+import com.leishi.flink.functions.LineSplitFlatMapFunction;
+import com.leishi.flink.functions.selectors.key.WordCountKeySelector;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.KeyedStream;

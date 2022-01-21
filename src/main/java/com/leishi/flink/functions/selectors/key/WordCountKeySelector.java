@@ -1,4 +1,4 @@
-package com.leishi.flink.com.leishi.flink.selectors.key;
+package com.leishi.flink.functions.selectors.key;
 
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.tuple.Tuple2;

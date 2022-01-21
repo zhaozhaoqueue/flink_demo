@@ -1,4 +1,4 @@
-package com.leishi.flink.com.leishi.flink.functions;
+package com.leishi.flink.functions;
 
 import org.apache.flink.api.common.functions.MapFunction;
 
